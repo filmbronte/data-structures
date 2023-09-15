@@ -11,7 +11,7 @@ export default function bubble_sort(arr: number[]): void {
 }
 
 function swap(a: number, b: number): void {
-    let temp = a;
+    const temp = a;
     a = b;
     b = temp;
 }
